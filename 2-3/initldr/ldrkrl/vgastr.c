@@ -5,7 +5,7 @@
 **********************************************************/
 
 #include "cmctl.h"
-__attribute__((section(".data"))) cursor_t curs;
+__attribute__((section(".data"))); cursor_t curs;
 
 void init_curs()
 {
